@@ -12,7 +12,7 @@ int main() {
 
     int opcao;
     do {
-        std::cout << "Escolha uma opção:\n"
+        std::cout << "Escolha uma opcao:\n"
                   << "1. Gerenciar Professores\n"
                   << "2. Gerenciar Alunos\n"
                   << "3. Gerenciar Salas de Defesa\n"
@@ -48,7 +48,7 @@ int main() {
                         case 0:
                             break;
                         default:
-                            std::cout << "Opção inválida!\n";
+                            std::cout << "opcao inválida!\n";
                             break;
                     }
                 } while (opProfessores != 0);
@@ -82,7 +82,7 @@ int main() {
                         case 0:
                             break;
                         default:
-                            std::cout << "Opção inválida!\n";
+                            std::cout << "opcao invalida!\n";
                             break;
                     }
                 } while (opAlunos != 0);
@@ -116,7 +116,7 @@ int main() {
                         case 0:
                             break;
                         default:
-                            std::cout << "Opção inválida!\n";
+                            std::cout << "opcao invalida!\n";
                             break;
                     }
                 } while (opSalaDeDefesas != 0);
@@ -150,7 +150,7 @@ int main() {
                         case 0:
                             break;
                         default:
-                            std::cout << "Opção inválida!\n";
+                            std::cout << "opcao invalida!\n";
                             break;
                     }
                 } while (opAgendamentoDefesas != 0);
@@ -161,7 +161,7 @@ int main() {
                 break;
 
             default:
-                std::cout << "Opção inválida!\n";
+                std::cout << "opcao invalida!\n";
                 break;
         }
     } while (opcao != 0);
