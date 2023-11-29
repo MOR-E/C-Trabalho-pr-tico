@@ -126,11 +126,11 @@ int main() {
                 // Opções para gerenciar Agendamentos de Defesa
                 int opAgendamentoDefesas;
                 do {
-                    std::cout << "\nGerenciamento de Sala de defesa:\n"
-                              << "1. Cadastrar Sala de defesa\n"
-                              << "2. Listar Sala de defesa\n"
-                              << "3. Atualizar Sala de defesa\n"
-                              << "4. Deletar Sala de defesa\n"
+                    std::cout << "\nGerenciamento de Agendamento de defesa:\n"
+                              << "1. Cadastrar Agendamento de defesa\n"
+                              << "2. Listar Agendamento de defesa\n"
+                              << "3. Atualizar Agendamento de defesa\n"
+                              << "4. Deletar Agendamento de defesa\n"
                               << "0. Voltar\n";
                     std::cin >> opAgendamentoDefesas;
 
